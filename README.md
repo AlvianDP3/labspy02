@@ -42,7 +42,8 @@ IF - ELSE Statement
               if ( kondisi ) :     
                    statemen 1    
               else :     
-                   statemen 2  
+                   statemen 2 
+                   
       Contoh Program :           
              >>> kunci = "python"           
              >>> password = raw_input("Masukkan Password : ")
