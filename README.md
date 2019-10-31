@@ -108,8 +108,6 @@ contohnya kita buat program ulangan, disini programnya akan menentukan jika sisw
  nilai = 75
 if nilai > 70:
     print('siswa lulus')
-    
-   
 
  # yang pertama kita akan membuat contoh bilangan yang memasukin bilangan satu sampai tiga
 
@@ -121,7 +119,7 @@ if nilai > 70:
   
   ![Gitconfig](https://github.com/alviandwipramono/labspy02/blob/master/bilangan1.png)
 
- Berikutnya kita juga bisa membuat kondisi if int
+ # Berikutnya kita juga bisa membuat kondisi if int
   -if int(Bilangan1) and (Bilangan1 > Bilangan3): seperti dibawah ini :
  print("Nilai terbesarnya adalah :", Bilangan1)
  
@@ -132,7 +130,7 @@ if nilai > 70:
     Terbesar = Bilangan1
     NomBil = "Bilangan 1"
 
- Selanjutnya kita juga bisa membuat kondisi elif yaitu:
+ # Selanjutnya kita juga bisa membuat kondisi elif yaitu:
    -Elife(Bilangan2 > Bilangan3) and (Bilangan2 > Bilangan1): Seperti dibawah ini:
    
   # contoh
@@ -150,7 +148,7 @@ if nilai > 70:
    ![iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/bilangan4.png)
     
     
- Selanjutnya menggunakan bilangan besar adalah
+ # Selanjutnya menggunakan bilangan besar adalah
   print("Bilangan yang terbesar adalah", NomBil, "dengan nilai", Terbesar)
   
   # contoh
