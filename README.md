@@ -1,4 +1,93 @@
-# Pengertian statement if python
+# Apa itu PyCharm?
+  PyCharm adalah integrated Development Evironment (IDE) yang berfokus pada mengembangan project dengan bahasa pemograman python.
+  PyCharm dikembangkan oleh JetBrains, Selain PyCharm, JetBrains juga mengembangkan banyak macam IDE lainya misalnya seperti PHPStrom untuk mengembangkan PHP, intelij IDEA untuk mengembangkan JAVA dan lain-lain.
+  
+![iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/jetbrains_products.png)
+
+# Pemrograman Python Menggunakan PyCharm
+
+![iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/bilangan.png)
+
+PyCharm merupakan IDE terbaik untuk pemrograman python. PyCharm dibuat oleh JetBrains.
+
+Ada dua versi PyCharm:
+
+1. Versi Profesional (Trial 30 hari) – Memiliki fitur lebih banyak untuk pemrograman python dan web.
+2. Versi Comunnity (Gratis dan opensource) – Fiturnya standar untuk pemrograman python.
+
+ Percabangan di Python terdapat 4 macam. Yang mana percabangan tersebut digunakan pada bahasa pemrograman python. berikut ini merupakan macam-macam percabangan pada bahasa pemrograman python :
+IF Statement
+Fungsi IF pada python adalah untuk memberikan kondisi tertentu pada program supaya program bisa berjalan sesuai dengan kondisi tersebut. Fungsi yang dipakai adalah IF(jika). Dengan fungsi tersebut, kita dapat lebih leluasa dalam pemrograman python.
+
+  IF Statement
+  IF - ELSE Statement
+  IF - ELIF - ELSE Statement
+  IF Bersarang(Nested IF)
+  
+ macam-macam jenis percabangan. Berikut ini merupakan penjelasannya
+
+IF Statement
+
+  Fungsi IF pada python adalah untuk memberikan kondisi tertentu pada program supaya program bisa berjalan sesuai dengan kondisi tersebut. Fungsi yang dipakai adalah IF(jika). Dengan fungsi tersebut, kita dapat lebih leluasa dalam pemrograman python.
+  
+     >>> nama = "python"          
+     >>> if nama == "python" :          
+     ...     print "Hello " + nama  
+     ...   Hello python
+  
+IF - ELSE Statement
+  Fungsi IF - ELSE pada python adalah untuk memberikan 2 kondisi yang mana kedua kondisi tersebut bersifat terbalik. artinya apabila kondisi pertama tidak memenuhi, maka akan muncul kondisi kedua(ELSE) secara otomatis.
+  
+  Bentuk umum perintah if – else : 
+              if ( kondisi ) :     
+                   statemen 1    
+              else :     
+                   statemen 2  
+      Contoh Program :           
+             >>> kunci = "python"           
+             >>> password = raw_input("Masukkan Password : ")
+             Masukkan Password : saya           
+             >>> if password == kunci:           
+             ...     print "Password Benar"  
+             ... else:          
+             ...     print "Password Salah"  
+             ...   
+             Password Salah
+
+IF - ELIF - ELSE Statement
+  Jika sebelumnya hanya memiliki satu kondisi, disini ada tambahan Elif pada python. ELIF adalah perintah pada program python untuk menammbah kondisi. Dalam hal ini, kondisi pada ELIF bisa digunakan berkali - kali.
+  
+  Bentuk umum perintah if – else – elif : 
+              if ( kondisi 1 ) :     
+                   statemen                
+              elif ( kondisi 2 ) :     
+                   statemen    
+              else:     
+                   statemen
+                   
+                   Contoh Program : 
+                   >>> angka = input("Masukkan sebuah bilangan : ")          
+                   Masukkan sebuah bilangan : 0           
+                   >>> if angka > 0 :           
+                   ...     print "Angka merupakan Bilangan Positif"          
+                   ... elif angka < 0 :           
+                   ...     print "Angka merupakan Bilangan Negatif"   
+                   ... else :           
+                   ...     print "Angka merupakan 0" 
+                   ...   Angka merupakan
+
+IF Bersarang(Nested IF)
+  IF Bersarang merupakan kondisi yang didalamnya terdapat kondisi lagi. Misalkan keputusan kita setelah SMA, ada dua pilihan. Yaitu Kuliah atau Kerja. Jika kita memilih kuliah, ada pilihan lagi didalamnya, yaitu daftar di kampus mana. dan seterusnya. Hal tersebut bisa kita bahasakan denga IF dalam IF.
+  
+    if x == y:    
+      print x, y "mempunyai nilai yang sama"  
+    else :    
+      if x > y :         
+           print x, "lebih besar dari", y   
+      if x < y :         
+           print x, "lebih kecil dari", y 
+ 
+## Pengertian statement if python
   Pada dasarnya, kondisi If Else If adalah sebuah struktur logika program yang di dapat dengan cara menyambung beberapa kondisi If Else menjadi sebuah kesatuan.
   Jika kondisi pertama tidak terpenuhi atau bernilai False, maka kode program akan lanjut ke kondisi If di bawahnya. Jika ternyata tidak juga terpenuhi, akan lanjut lagi ke kondisi If di bawahnya, dst hingga blok Else terakhir atau terdapat kondisi If yang bernilai True.
  
@@ -14,7 +103,7 @@
   
   # contoh
   
-  ![iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/bilangan1.png)
+  ![Gitconfig](https://github.com/alviandwipramono/labspy02/blob/master/bilangan1.png)
 
  Berikutnya kita juga bisa membuat kondisi if int
   -if int(Bilangan1) and (Bilangan1 > Bilangan3): seperti dibawah ini :
@@ -59,8 +148,10 @@
 # Selanjutnya kita mengetahui setelah RUN yang salah:
 ![iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/Capture.PNG)
 
-    Pada if segment diatas memiliki ketentuan nilai if pertama harus bernilai true barulah nilai if yang berikutnya yang akan di proses atau dieksekusi, namun jika nilai if pertama bernilai false maka nilai if yang berikutnya tidak akan di proses, namun jika nilai if yang pertama bernilai true sedangkan nilai if yang kedua bernilai false maka yang akan di proses hanyalah if yang pertama. 
-    Berikut hasilnya jika if segment yang kita masukan bernilai true :
+    Pada if segment diatas memiliki ketentuan nilai if pertama harus bernilai true barulah nilai if yang berikutnya yang akan di proses atau dieksekusi, namun jika nilai if pertama bernilai false maka nilai if yang berikutnya tidak akan di proses, namun jika nilai if yang pertama bernilai true sedangkan nilai if yang kedua bernilai false maka yang akan di proses hanyalah if yang pertama.
+    
+   Berikut hasilnya jika if segment yang kita masukan bernilai true:
+    
 ![iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/step.png)
 
   selanjutnya kita juga bisa menambahkan is dan is not pada if segment seperti dibawah ini :
