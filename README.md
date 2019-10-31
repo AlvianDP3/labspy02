@@ -92,11 +92,26 @@ IF Bersarang(Nested IF)
   Pada dasarnya, kondisi If Else If adalah sebuah struktur logika program yang di dapat dengan cara menyambung beberapa kondisi If Else menjadi sebuah kesatuan.
   Jika kondisi pertama tidak terpenuhi atau bernilai False, maka kode program akan lanjut ke kondisi If di bawahnya. Jika ternyata tidak juga terpenuhi, akan lanjut lagi ke kondisi If di bawahnya, dst hingga blok Else terakhir atau terdapat kondisi If yang bernilai True.
  
-## Di Python ada 3 jenis pernyataan yang digunakan untuk percabangan, yaitu sebagai berikut.
+## Kapan Percabangan di Gunakan?
+
+nah sekarang muncul pertanyaan kapan percabangan itu digunakan?, percabangan digunakan saat terdapat suatu keputusan atau dihadapkan pada kondisi tertentu, disini percabangan akan mengevaluasi kondisi yang hasilnya True atau False, yang dimana jika Kondisinya True maka pernyataan(statement) dalam blok tersebut akan di eksekusi dan Jika hasilnya  False maka pernyataan(statement) dalam blok lain akan di eksekusi, dalam python ada 3 jenis pernyataan atau statement yang digunakan, berikut tabelnya.
 
 ![iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/python%203%20jenis.png)
 
- yang pertama kita akan membuat contoh bilangan yang memasukin bilangan satu sampai tiga
+ok sekarang kita mari kita bahas satu-satu
+
+Struktur If
+percabangan if digunakan saat terdapat satu keputusan, formatnya begini
+ if statement:
+    statement
+contohnya kita buat program ulangan, disini programnya akan menentukan jika siswa denan nilai diatas 70 akan lulus, buat program dengan nama if.py lalu isi
+ nilai = 75
+if nilai > 70:
+    print('siswa lulus')
+    
+   
+
+ # yang pertama kita akan membuat contoh bilangan yang memasukin bilangan satu sampai tiga
 
   Bilangan1 = int(input("Masukkan Bilangan 1:"))
   Bilangan2 = int(input("Masukkan Bilangan 2:"))
