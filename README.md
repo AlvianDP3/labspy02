@@ -134,7 +134,8 @@ if nilai > 70:
    -Elife(Bilangan2 > Bilangan3) and (Bilangan2 > Bilangan1): Seperti dibawah ini:
    
   # contoh
-  [iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/bilangan3.png)
+  
+  ![iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/bilangan3.png)
   
     Terbesar = Bilangan2
     NomBil = "Bilangan 2"
