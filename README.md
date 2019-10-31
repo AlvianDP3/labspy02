@@ -15,7 +15,7 @@ Ada dua versi PyCharm:
 1. Versi Profesional (Trial 30 hari) – Memiliki fitur lebih banyak untuk pemrograman python dan web.
 2. Versi Comunnity (Gratis dan opensource) – Fiturnya standar untuk pemrograman python.
 
- Percabangan di Python terdapat 4 macam. Yang mana percabangan tersebut digunakan pada bahasa pemrograman python. berikut ini merupakan macam-macam percabangan pada bahasa pemrograman python :
+ Percabangan di Python terdapat 4 macam. Yang mana percabangan tersebut digunakan pada bahasa pemrograman python. berikut ini merupakan # macam-macam percabangan pada bahasa pemrograman python :
 IF Statement
 Fungsi IF pada python adalah untuk memberikan kondisi tertentu pada program supaya program bisa berjalan sesuai dengan kondisi tersebut. Fungsi yang dipakai adalah IF(jika). Dengan fungsi tersebut, kita dapat lebih leluasa dalam pemrograman python.
 
@@ -24,7 +24,7 @@ Fungsi IF pada python adalah untuk memberikan kondisi tertentu pada program supa
   IF - ELIF - ELSE Statement
   IF Bersarang(Nested IF)
   
- macam-macam jenis percabangan. Berikut ini merupakan penjelasannya
+# macam-macam jenis percabangan. Berikut ini merupakan penjelasannya
 
 IF Statement
 
