@@ -117,13 +117,12 @@ IF Bersarang(Nested IF)
     Terbesar = Bilangan1
     NomBil = "Bilangan 1"
 
-
  Selanjutnya kita juga bisa membuat kondisi elif yaitu:
    -Elife(Bilangan2 > Bilangan3) and (Bilangan2 > Bilangan1): Seperti dibawah ini:
    
   # contoh
-  
   [iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/bilangan3.png)
+  
     Terbesar = Bilangan2
     NomBil = "Bilangan 2"
 
@@ -139,7 +138,7 @@ IF Bersarang(Nested IF)
  Selanjutnya menggunakan bilangan besar adalah
   print("Bilangan yang terbesar adalah", NomBil, "dengan nilai", Terbesar)
   
-  #contoh
+  # contoh
   
   ![iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/print%20bilangan%20terbesar.png)
  
