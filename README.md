@@ -6,7 +6,7 @@
 
 # Pemrograman Python Menggunakan PyCharm
 
-![iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/bilangan.png)
+![iftrue/false](https://github.com/alviandwipramono/labspy02/blob/master/print2.png)
 
 PyCharm merupakan IDE terbaik untuk pemrograman python. PyCharm dibuat oleh JetBrains.
 
